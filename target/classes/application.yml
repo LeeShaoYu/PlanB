@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/plan_b?useSSL=false&serverTimezone=GMT
+    username: root
+    password: 123455
+  jpa:
+    show-sql: true
+
+server:
+  port: 8088
+
+
+
